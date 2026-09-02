@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departamentos Úteis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Contatos de Departamentos</h1>
+    </header>
+    <main>
+        
+        <div id="geral">
+            
+                <div id="campo">
+                    <label for="">Escolha o departamento desejado:</label>
+                    <select name="departamentos" id="depar">
+                        <option selected disabled>Selecione um Departamento</option>
+                        <option value="1">Polícia Militar</option>
+                        <option value="2">Bombeiros</option>
+                        <option value="3">SAMU</option>
+                        <option value="4">Defesa Civil</option>
+                        <option value="5">Polícia Civil</option>
+                        <option value="6">Delegacia do Turista(DEAT)</option>
+                        <option value="7">Disque Denúncia</option>
+                        <option value="8">Central do Atendimento à Mulher</option>
+                        <option value="9">Direitos humanos</option>
+                        <option value="10">Procon</option>
+                        <option value="11">HemoRio</option>
+                        <option value="12">Detran</option>
+                        <option value="13">Disque Ambiente</option>
+                    </select>
+                   
+                </div>
+                 <button onclick="escolher()">Escolher</button>
+          
+            <div id="resultado"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026, Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
